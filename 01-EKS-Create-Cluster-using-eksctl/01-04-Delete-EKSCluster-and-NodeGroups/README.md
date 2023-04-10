@@ -20,7 +20,7 @@ eksctl delete nodegroup --cluster=eksdemo1 --name=eksdemo1-ng-public1
 ```
 # Delete Cluster
 eksctl delete cluster <clusterName>
-eksctl delete cluster eksdemo1
+eksctl delete cluster eksdemo1 --region us-east-1
 ```
 
 ## Important Notes
